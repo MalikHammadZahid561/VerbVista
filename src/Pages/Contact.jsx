@@ -3,11 +3,12 @@ import home from "/Assets/home1.avif"
 import what from "/Assets/whatsapp.png"
 import tele from "/Assets/telephone-call.png"
 import insta from "/Assets/instagram.png"
+import Feedback from "../Components/Feedback/Feedback"
 
 function Contact() {
   return (
     <div>
-        <div  className="flex justify-center items-center px-[50px] mt-20">
+        <div  className="flex justify-center items-center px-[50px]">
         <div className="flex flex-col p-14 w-1/2">
           <div>
             <h2 className="text-xl text-orange-300 font-bold"> Our Contact</h2>
@@ -46,11 +47,12 @@ function Contact() {
           </div>
         </div>
 
-        <div className="w-2/5 flex justify-end mb-6 rounded-full">
+        <div className="w-2/5 flex justify-end mb-6 rounded-full mt-10">
           <img className='rounded-full' width={400} src={home}/>
         </div>
 
-      </div>
+</div>
+<Feedback/>
     </div>
   )
 }

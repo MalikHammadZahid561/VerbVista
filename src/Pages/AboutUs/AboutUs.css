@@ -1,0 +1,17 @@
+.about-container h3 {
+    font-size: 4vh;
+    color: rgb(21, 148, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}
+.about-container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 3vh auto 4vh auto;
+    text-align: center;
+    font-size: 2.5vh;
+}

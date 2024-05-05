@@ -73,7 +73,7 @@ console.log('results',results)
   return (
     <>
       <div className="">
-        <h1 className="plag-title">Grammar Checker</h1>
+        <h1 className="plag-title">Paraphrasing</h1>
         <h4 className="p-1">
         Paraphrasing checkers enhance originality, improve writing quality, and ensure content integrity
         </h4>

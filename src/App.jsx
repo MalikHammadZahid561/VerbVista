@@ -12,7 +12,7 @@ import GrammarChecker from './Pages/Grammarcheck/grammar';
 import ChatbotComponent from './Pages/customChatbot/Chatbot';
 import ChatToggleButton from './Pages/customChatbot/ChatToggle';
 import Contact from './Pages/Contact';
-import AboutUs from './Pages/AboutUs';
+import AboutUs from './Pages/AboutUs/AboutUs';
 
 function App() {
   const [chatOpen,setChatOpen]=useState(false)

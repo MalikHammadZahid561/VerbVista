@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@huggingface/inference": "^2.6.4",
     "@mantine/core": "^7.4.1",
@@ -24,6 +25,7 @@
     "react": "^18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-rating-stars-component": "^2.2.0",
     "react-router-dom": "^6.20.0",
     "react-simple-chatbot": "^0.6.1",
     "tabler": "^1.0.0-alpha.8"
