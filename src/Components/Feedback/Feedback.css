@@ -1,4 +1,4 @@
-.feedback-container {
+.feedback {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
   }
-  .Auth-form {
+  .feedback-form {
     width: 50%;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
     padding-top: 30px;
