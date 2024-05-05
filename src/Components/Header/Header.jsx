@@ -20,6 +20,7 @@ const Header = () => {
             <li style={{fontSize: '0.9rem'}}><Link to="/grammar"> Paraphrasing Tool</Link></li>
             <li style={{fontSize: '0.9rem'}}><Link to="/contact">Contact</Link></li>
             <li style={{fontSize: '0.9rem'}}><Link to="/about">About</Link></li>
+            <li style={{fontSize: '0.9rem'}}><Link to="/templates">Knowledge Base</Link></li>
             <li style={{fontSize: '0.9rem'}}><Link to="/login" className="login-btn">Login</Link></li>
             <li style={{fontSize: '0.9rem'}}><Link to="/register" className="register-btn">Register</Link></li>
           </ul>

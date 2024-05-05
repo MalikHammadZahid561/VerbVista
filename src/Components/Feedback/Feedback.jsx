@@ -25,7 +25,7 @@ const Feedback = () => {
     };
 
     return (
-        <div className="Auth-form-container">
+        <div className="Auth-form-container feedback-container">
             <form ref={form} className="Auth-form" onSubmit={sendEmail}>
                 <div className="Auth-form-content">
                     <h3 className="Auth-form-title">Feedback</h3>
