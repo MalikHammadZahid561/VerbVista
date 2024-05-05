@@ -4,6 +4,7 @@ import what from "/Assets/whatsapp.png"
 import tele from "/Assets/telephone-call.png"
 import insta from "/Assets/instagram.png"
 import Feedback from "../Components/Feedback/Feedback"
+import Footer from '../Components/Footer/Footer'
 
 function Contact() {
   return (
@@ -53,6 +54,9 @@ function Contact() {
 
 </div>
 <Feedback/>
+<br />
+<br />
+<Footer/>
     </div>
   )
 }

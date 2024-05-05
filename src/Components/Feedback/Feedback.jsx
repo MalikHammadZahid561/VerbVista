@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-// import './Feedback.css';
+import './Feedback.css';
 
 const Feedback = () => {
     const form = useRef();
@@ -25,7 +25,7 @@ const Feedback = () => {
     };
 
     return (
-        <div className="Auth-form-container feedback-container">
+        <div className="feedback-container">
             <form ref={form} className="Auth-form" onSubmit={sendEmail}>
                 <div className="Auth-form-content">
                     <h3 className="Auth-form-title">Feedback</h3>

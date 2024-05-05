@@ -13,6 +13,7 @@ import ChatbotComponent from './Pages/customChatbot/Chatbot';
 import ChatToggleButton from './Pages/customChatbot/ChatToggle';
 import Contact from './Pages/Contact';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import Templates from './Pages/Templates/Templates';
 
 function App() {
   const [chatOpen, setChatOpen] = useState(false);
@@ -34,6 +35,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/templates" element={<Templates />} />
       </Routes>
     </MantineProvider>
   );
