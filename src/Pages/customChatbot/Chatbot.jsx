@@ -28,7 +28,7 @@ const ChatbotComponent = ({ isOpen, handleClose }) => {
       waitAction: true,
       replace: true,
       asMessage: true,
-      trigger: 'options-if-unrelated',
+      // trigger: 'options-if-unrelated',
     },
     {
       id: 'options-if-unrelated',

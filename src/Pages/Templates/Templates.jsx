@@ -34,7 +34,7 @@ function Templates() {
             <li>4. Outline the structure</li>
             <li>5. Write your literature review</li>
           </ol>
-          <br />A good literature review doesn’t just summarize sources—it
+          <br />A good literature review doesn’t just summarize sources it
           analyzes, synthesizes, and critically evaluates to give a clear
           picture of the state of knowledge on the subject.
         </p>
@@ -71,7 +71,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/BLtAFLKB#bRS1L6iPV9NsMewJOSq0rk8E6PD75ziidwcK0usi9CM"
+            href="https://mega.nz/file/QXNCHAJQ#izOW5ExPDMqTR4W6F3zOw73K3BBxfaApcaAj_-o49hM"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -80,7 +80,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/sKUUEYga#4ND4sjnaKuWX9s8GjYg6xfsW4m0c7GQXTQVmGedHq8w"
+            href="https://mega.nz/file/BKMCXSCJ#_Zi4HA2IUSO8qbO69KQal0-px7oeGCZyOS1QuBS22BY"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -89,7 +89,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/AfUkGAxC#600Z18tLa1TzsR48jDReQ7MNPxDNJMfzs2ODAlS3LGo"
+            href="https://mega.nz/file/9HsXSLjQ#ZeBsO29vr2vZWtQQkXl8e2bGATYoKDyuxsOsXp1EB-4"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -127,7 +127,7 @@ function Templates() {
         <a
           className="download-container"
           id="download-link"
-          href="https://mega.nz/file/1bNBhRqT#CbGviZ591DP3RjjQVCcS4E5J-3mj1WPoB_v2d9qVumE"
+          href="https://mega.nz/file/FSU3DYZD#wBmEx_2ZsgIz1jTHQbCwC3wnfWjZU2bElC_yGZtdVMw"
           target="_blank"
         >
           <img id="download-icon" src={DownloadIcon} alt="" />
@@ -192,7 +192,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/UK9AEDRD#qsakVburWFXV3zCJIkFiCnHN8w3_4H9TyQsKs3GE4pg"
+            href="https://mega.nz/file/BKMCXSCJ#_Zi4HA2IUSO8qbO69KQal0-px7oeGCZyOS1QuBS22BY"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -201,7 +201,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/sKUUEYga#4ND4sjnaKuWX9s8GjYg6xfsW4m0c7GQXTQVmGedHq8w"
+            href="https://mega.nz/file/QXNCHAJQ#izOW5ExPDMqTR4W6F3zOw73K3BBxfaApcaAj_-o49hM"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -219,7 +219,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/5GUC2ZZB#H6i7eksi_ZHKqz9PSVqqFchrW13qe6kN2O-8ls3mA90"
+            href="https://mega.nz/file/8WEwGboS#zyUKl0yFAOp9V2HW4W3mkAOL_aEZF_ZeRVUl72sAu74"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -228,7 +228,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/QW0WkLIZ#fEFmoDnCZdkkHk_DodJ1YvDvyK2veByG3EXEqLvo-rw"
+            href="https://mega.nz/file/letF3bKK#Iw3PqcmbqufVLQOIwZOPgH34T1vEt1oM389j7G_UHZA"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -237,7 +237,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/MSt0QAiQ#GXWARBUXTSN6nvwbKn-P_0aAcRxywg1GrxwFESeKAEs"
+            href="https://mega.nz/file/8e0ijTqR#k4qWRAZHosQNok4wjh1E8nPE2of8opN2HEXX-TyBfKQ"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -319,7 +319,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/UK9AEDRD#qsakVburWFXV3zCJIkFiCnHN8w3_4H9TyQsKs3GE4pg"
+            href="https://mega.nz/file/QXNCHAJQ#izOW5ExPDMqTR4W6F3zOw73K3BBxfaApcaAj_-o49hM"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
@@ -328,7 +328,7 @@ function Templates() {
           <a
             className="download-container"
             id="download-link"
-            href="https://mega.nz/file/sKUUEYga#4ND4sjnaKuWX9s8GjYg6xfsW4m0c7GQXTQVmGedHq8w"
+            href="https://mega.nz/file/BKMCXSCJ#_Zi4HA2IUSO8qbO69KQal0-px7oeGCZyOS1QuBS22BY"
             target="_blank"
           >
             <img id="download-icon" src={DownloadIcon} alt="" />
