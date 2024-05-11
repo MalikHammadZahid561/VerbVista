@@ -79,6 +79,10 @@ body{margin-top:20px;}
     padding: 100px 0;
     position: relative;
 }
+.section-container{
+  width:80%;
+  margin:0 auto;
+}
 .section-title {
     padding-bottom: 45px;
 }

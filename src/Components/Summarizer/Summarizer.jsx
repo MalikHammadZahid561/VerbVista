@@ -39,7 +39,7 @@ const Home = ({head, button}) => {
 
   return (
     <div className='main'>
-      <h1>{head}</h1>
+      <h1 className="sumtitle" >{head}</h1>
       <div className="input-container">
         <textarea 
           placeholder="Enter text to summarize"
@@ -52,7 +52,7 @@ const Home = ({head, button}) => {
           readOnly
         />
       </div>
-        <div className="upload-container">
+        {/* <div className="upload-container">
         <label className="file-upload" htmlFor="fileUpload">
             <img className='upload' src={upload} alt="" />
             <input style={{display:'none'}}
@@ -70,7 +70,7 @@ const Home = ({head, button}) => {
               onChange={(e) => setUrl(e.target.value)}
             />
           
-        </div>
+        </div> */}
       <div className='div_button' >
       <button className="rounded-button" onClick={handleSummarize}>
         {button}

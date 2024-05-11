@@ -10,10 +10,10 @@ function Services() {
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
 
 <section class="section services-section" id="services">
-    <div class="container">
+    <div class="section-container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="section-title">
+            <div class="col-lg-12">
+                <div class="section-title text-left">
                     <h2>What I Do</h2>
                     <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
                 </div>

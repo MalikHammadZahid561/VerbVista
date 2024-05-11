@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Plag.css";
 import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
-import FileUploadButton from "../../Components/plagarism/FileButton";
 import axios from "axios";
 import plag1 from "/Assets/plag1.webp";
 import plag2 from "/Assets/plag2.webp";
@@ -111,9 +110,7 @@ const Plag = () => {
                     >
                       Scan Plagiarism
                     </button>
-                    <div className="pl-2">
-                      <FileUploadButton />
-                    </div>
+                    
                   </div>
                   <div>
                     <span className="text-sm">

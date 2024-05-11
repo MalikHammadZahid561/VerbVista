@@ -5,12 +5,16 @@
 }
 
 
-  h1 {
-    text-align: center;
-    color: rgb(45,62,79);
-    padding:30px;
-    text-shadow: 3px 2px 40px rgb(112, 112, 112);
-  }
+.sumtitle {
+  color: #343a40;        /* Dark slate gray color for high contrast against a light background */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern and clean font family */
+  font-size: 32px;       /* Larger font size for heading */
+  font-weight: 700;      /* Bold font weight for prominence */
+  text-align: center;    /* Center aligns the text, suitable for titles */
+  margin-top: 20px;      /* Adds space above the heading */
+  margin-bottom: 20px;   /* Adds space below the heading */
+  padding: 10px 0;       /* Adds padding on the top and bottom for better text framing */
+}
   
   .input-container {
     display: flex;
@@ -51,7 +55,7 @@
   }
   
   .rounded-button {
-    width: 10%;
+    width: 100px;
     padding: 6px;
     margin-top: 10px;
     background-color: #4caf50;
@@ -73,7 +77,7 @@
     align-items: center;
     margin: 0 auto;
     position:absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 100px;
     /* justify-content: space-around; */
     /* justify-content: space-between; */

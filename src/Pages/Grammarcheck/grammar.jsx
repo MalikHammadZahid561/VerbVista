@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./grammar.css";
 // import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
-import FileUploadButton from "../../Components/plagarism/FileButton";
 import axios from "axios";
 import para from "/Assets/para.webp";
 import para2 from "/Assets/para2.webp";
@@ -101,7 +100,7 @@ const Plag = () => {
   return (
     <>
       <div className="">
-        <h1 className="plag-title">Grammar Checker</h1>
+        <h1 className="plag-title">Paraphrasing Tool</h1>
         <h4 className="p-1">
           Paraphrasing checkers enhance originality, improve writing quality,
           and ensure content integrity
@@ -141,9 +140,7 @@ const Plag = () => {
                     >
                       Paraphrasing Tool
                     </button>
-                    <div className="pl-2">
-                      <FileUploadButton />
-                    </div>
+                   
                   </div>
                   <div>
                     <span className="text-sm">

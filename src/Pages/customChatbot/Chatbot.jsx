@@ -1,8 +1,9 @@
-import React ,{useEffect} from 'react';
+import React ,{useCallback, useEffect, } from 'react';
 import ChatBot from 'react-simple-chatbot';
 import cross from '/Assets/cross.svg';
 
 const ChatbotComponent = ({ isOpen, handleClose }) => {
+  
   if (!isOpen) return null;
 
   const steps = [
@@ -101,7 +102,7 @@ const ChatbotComponent = ({ isOpen, handleClose }) => {
       end: true,
     },
   ];
-
+  console.log("Steps", steps);
   return (
     <div style={{
       position: 'fixed', bottom: 0, right: 40, zIndex: 1000, maxWidth: '300px', maxHeight: '400px',
@@ -111,6 +112,7 @@ const ChatbotComponent = ({ isOpen, handleClose }) => {
       }}>
         <img src={cross} alt="Close" style={{ width: '20px', height: '20px' }} />
       </button>
+
       <ChatBot steps={steps} floating={false} width="300px" height="400px"
       style={{ position:'absolute', bottom: 100, right: 10, zIndex: 1000, maxWidth: '300px', maxHeight: '400px' }}
          contentStyle={{ borderRadius: '8px', boxShadow: '0 8px 8px 0 rgba(0, 0, 0, 0.2)' ,overflowY: 'scroll'}}
@@ -133,8 +135,7 @@ const ChatbotComponent = ({ isOpen, handleClose }) => {
 
 const DynamicResponse = ({ steps, triggerNextStep }) => {
   const userQuery = steps['user-query'].value.toLowerCase();
-
-  useEffect(() => {
+  
     if (userQuery.includes('summarization') || userQuery.includes('summarize')) {
       triggerNextStep({ trigger: 'text-summarization' });
     } else if (userQuery.includes('plagiarism')) {
@@ -144,9 +145,9 @@ const DynamicResponse = ({ steps, triggerNextStep }) => {
     } else {
       triggerNextStep({ trigger: 'options-if-unrelated' });
     }
-  }, [userQuery, triggerNextStep]); // dependencies array ensures this only runs if userQuery or triggerNextStep changes
-
-  return <div>Checking your request...</div>;
+ // dependencies array ensures this only runs if userQuery or triggerNextStep changes
+  
+  return <div>Checking your request...</div>; 
 };
 
 export default ChatbotComponent;
