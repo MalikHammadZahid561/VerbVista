@@ -53,9 +53,8 @@ const Plag = () => {
         (prev) => `${prev}${pasteText.slice(0, maxLength - prev.length)}`
       ); // Trim the pasted text to 1000 characters
       // Display a message indicating text was trimmed
-      document.getElementById("text-area").value = `${
-        document.getElementById("text-area").value
-      } (Pasted text was trimmed to 1000 characters)`;
+      document.getElementById("text-area").value = `${document.getElementById("text-area").value
+        } (Pasted text was trimmed to 1000 characters)`;
     } else {
       // Append the pasted text to the current text
       setText((prev) => prev + pasteText);
@@ -81,14 +80,12 @@ const Plag = () => {
         </h4>
         <div className="flex justify-center items-center">
           <div
-            className={`shadow-lg p-2 mb-5 border-2 rounded-lg flex sm:h-[580px] sm:mx-10 sm:my-10 sm:w-[600px] lg:w-[1000px] ${
-              showResults ? "w-full" : "w-1/2"
-            }`}
+            className={`shadow-lg p-2 mb-5 border-2 rounded-lg flex sm:h-[580px] sm:mx-10 sm:my-10 sm:w-[600px] lg:w-[1000px] ${showResults ? "w-full" : "w-1/2"
+              }`}
           >
             <div
-              className={`${
-                showResults ? "w-1/2" : "w-full"
-              } flex flex-col space-y-4`}
+              className={`${showResults ? "w-1/2" : "w-full"
+                } flex flex-col space-y-4`}
             >
               {/* Plagiarism Checker Div */}
               <div className="relative">
@@ -110,7 +107,7 @@ const Plag = () => {
                     >
                       Scan Plagiarism
                     </button>
-                    
+
                   </div>
                   <div>
                     <span className="text-sm">
@@ -148,8 +145,8 @@ const Plag = () => {
                       {results?.[0].label === "LABEL_0"
                         ? "Confidence: 100%"
                         : `Confidence: ${(results?.[0].score * 100).toFixed(
-                            2
-                          )}%`}
+                          2
+                        )}%`}
                       )
                     </p>
                   </div>
@@ -159,11 +156,10 @@ const Plag = () => {
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Grammar</p>
                     <span
-                      className={`${
-                        results?.[0].label === "LABEL_0"
+                      className={`${results?.[0].label === "LABEL_0"
                           ? "text-green-500"
                           : "text-red-500"
-                      }`}
+                        }`}
                     >
                       {results?.[0].label === "LABEL_0"
                         ? "✔"
@@ -173,100 +169,85 @@ const Plag = () => {
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Additional writing issues</p>
                     <div
-                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${
-                        results?.[1].label === "LABEL_1"
+                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${results?.[1].label === "LABEL_1"
                           ? "bg-green-500"
                           : "bg-red-500"
-                      }`}
+                        }`}
                     >
                       <span className="">
                         {results?.[1].label === "LABEL_1"
-                          ? `${2 + Math.floor(Math.random() * 6)}${
-                              Math.random() > 0.5 ? "" : ""
-                            }`
-                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${
-                              (results?.[1].score || 0) * 4 > 1 ? "" : ""
-                            }`}
+                          ? `${2 + Math.floor(Math.random() * 6)}${Math.random() > 0.5 ? "" : ""
+                          }`
+                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${(results?.[1].score || 0) * 4 > 1 ? "" : ""
+                          }`}
                       </span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Punctuation</p>
                     <div
-                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${
-                        results?.[1].label === "LABEL_0"
+                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${results?.[1].label === "LABEL_0"
                           ? "bg-green-500"
                           : "bg-red-500"
-                      }`}
+                        }`}
                     >
                       <span className="">
                         {results?.[1].label === "LABEL_1"
-                          ? `${2 + Math.floor(Math.random() * 6)}${
-                              Math.random() > 0.5 ? "" : ""
-                            }`
-                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${
-                              (results?.[1].score || 0) * 4 > 1 ? "" : ""
-                            }`}
+                          ? `${2 + Math.floor(Math.random() * 6)}${Math.random() > 0.5 ? "" : ""
+                          }`
+                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${(results?.[1].score || 0) * 4 > 1 ? "" : ""
+                          }`}
                       </span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Spelling</p>
                     <div
-                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${
-                        results?.[1].label === "LABEL_1"
+                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${results?.[1].label === "LABEL_1"
                           ? "bg-green-500"
                           : "bg-red-500"
-                      }`}
+                        }`}
                     >
                       <span className="">
                         {results?.[1].label === "LABEL_1"
-                          ? `${2 + Math.floor(Math.random() * 6)}${
-                              Math.random() > 0.5 ? "" : ""
-                            }`
-                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${
-                              (results?.[1].score || 0) * 4 > 1 ? "" : ""
-                            }`}
+                          ? `${2 + Math.floor(Math.random() * 6)}${Math.random() > 0.5 ? "" : ""
+                          }`
+                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${(results?.[1].score || 0) * 4 > 1 ? "" : ""
+                          }`}
                       </span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Conciseness</p>
                     <div
-                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${
-                        results?.[1].label === "LABEL_1"
+                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${results?.[1].label === "LABEL_1"
                           ? "bg-green-500"
                           : "bg-red-500"
-                      }`}
+                        }`}
                     >
                       <span className="">
                         {results?.[1].label === "LABEL_1"
-                          ? `${2 + Math.floor(Math.random() * 6)}${
-                              Math.random() > 0.5 ? "" : ""
-                            }`
-                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${
-                              (results?.[1].score || 0) * 4 > 1 ? "" : ""
-                            }`}
+                          ? `${2 + Math.floor(Math.random() * 6)}${Math.random() > 0.5 ? "" : ""
+                          }`
+                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${(results?.[1].score || 0) * 4 > 1 ? "" : ""
+                          }`}
                       </span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between border-b-2 p-2">
                     <p>Word choice</p>
                     <div
-                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${
-                        results?.[0].label === "LABEL_1"
+                      className={`flex justify-center items-center w-[30px] h-[30px] rounded-full ${results?.[0].label === "LABEL_1"
                           ? "bg-green-500"
                           : "bg-red-500"
-                      }`}
+                        }`}
                     >
                       <span className="">
                         {results?.[1].label === "LABEL_1"
-                          ? `${2 + Math.floor(Math.random() * 6)}${
-                              Math.random() > 0.5 ? "" : ""
-                            }`
-                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${
-                              (results?.[1].score || 0) * 4 > 1 ? "" : ""
-                            }`}
+                          ? `${2 + Math.floor(Math.random() * 6)}${Math.random() > 0.5 ? "" : ""
+                          }`
+                          : `${3 + Math.floor((results?.[1].score || 0) * 4)}${(results?.[1].score || 0) * 4 > 1 ? "" : ""
+                          }`}
                       </span>
                     </div>
                   </div>
@@ -289,7 +270,7 @@ const Plag = () => {
           </div>
         </div>
         <div className="pg-container sm:mx-[60px] flex ">
-          <img src={plag2} width={400}/>
+          <img src={plag2} width={400} />
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-3xl font-bold">Writing Enhancements</h1>
             <p className="w-3/5">
@@ -322,7 +303,7 @@ const Plag = () => {
               even a sentence or two can have serious consequences. For
               students, plagiarism often means a failing grade, academic
               probation, or worse. Fortunately, there is a tool that can help.
-              Grammarly’s online plagiarism checker can help you ensure that you
+              VerbVista’s online plagiarism checker can help you ensure that you
               have properly identified and cited anything in your text that
               isn’t 100 percent original.
               <br />
@@ -336,18 +317,18 @@ const Plag = () => {
           <img src={plag4} width={400} />
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-3xl font-bold">
-              How Does Grammarly’s Plagiarism <br />
+              How Does VerbVista’s Plagiarism <br />
               Checker Work?
             </h1>
             <p className="w-2/3">
               Our online plagiarism checker compares your text to billions of
               web pages and academic papers stored in ProQuest's databases. When
               part of your text matches something written online or in a
-              database, you’ll get a plagiarism alert. When you use Grammarly’s
+              database, you’ll get a plagiarism alert. When you use VerbVista’s
               free online plagiarism check to detect plagiarism, you’ll see an
               instant report that tells you whether or not plagiarism was found
               and how many grammar and writing issues are present in your
-              document. Grammarly’s Premium plagiarism checker flags specific
+              document. VerbVista’s Premium plagiarism checker flags specific
               sentences and provides reference information about the source,
               calculates an overall originality score for your document, and
               offers advanced writing feedback and corrections across several
@@ -358,15 +339,15 @@ const Plag = () => {
             </p>
           </div>
         </div>
-         <div className="flex flex-col justify-center items-center mt-6">
+        <div className="flex flex-col justify-center items-center mt-6">
           <h1 className="text-3xl font-bold ">
-          Who Benefits from Grammarly’s <br/> Plagiarism Checker?
+            Who Benefits from VerbVista’s <br /> Plagiarism Checker?
           </h1>
           <p className="w-[50%] text-lg my-10">
-          Whether you’re a student writing an essay, a teacher grading papers, or a writer working on original content for the web, a plagiarism scan will not only save you time, but also help you avoid writing mistakes.
+            Whether you’re a student writing an essay, a teacher grading papers, or a writer working on original content for the web, a plagiarism scan will not only save you time, but also help you avoid writing mistakes.
 
           </p>
-         </div>
+        </div>
 
       </div>
 
