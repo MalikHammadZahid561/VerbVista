@@ -9,7 +9,7 @@ function Templates() {
   return (
     <>
       <div className="temp-head">
-        <h2>Templates</h2>
+        <h2>VerbVista Knowledge Base</h2>
       </div>
       <div className="temp-container">
         <div className="secondary-head">
