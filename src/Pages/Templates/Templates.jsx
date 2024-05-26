@@ -337,7 +337,167 @@ function Templates() {
         </div>
         <br />
         <hr />
+        <div className="secondary-head">
+          <h4>How to Write a Final Year Project Proposal | Examples & Templates</h4>
+        </div>
+        <p>
+          A final year project proposal outlines the intended research, 
+          articulating the significance of the topic and detailing the methodology to be employed. 
+          While the structure of such a proposal can differ across academic disciplines, 
+          it generally includes several key components: an introduction to the research question or problem, 
+          a literature review situating the project within existing scholarship, a clear statement of objectives, 
+          a description of the research design and methods, an explanation of the project's significance and potential contributions, 
+          a timeline for completion, and a list of references. This framework ensures that the proposal provides a comprehensive plan 
+          for the research, demonstrating its feasibility and scholarly value. Most of the proposals will
+          contain at least these elements:
+          <br />
+          <li className="list-style1">Project Title</li>
+          <li className="list-style1">Real world problem</li>
+          <li className="list-style1">Detail of project members</li>
+          <li className="list-style1">Project streams</li>
+          <li className="list-style1">Project Description</li>
+          <li className="list-style1">Development enviroment</li>
+          <br />
+          While the sections may vary, the overall objective is always the same.
+          A project proposal serves as a blueprint and guide for your
+          plan, helping you get organized and feel confident in the path forward
+          you choose to take.
+        </p>
+        <h5 className="sub-head">Final Year Project Proposal Templates</h5>
+        <p>
+          A bachelor’s or master’s project proposal can be just a few pages,
+          while proposals for PhD dissertations are usually
+          much longer and more detailed.
+        </p>
+        <a
+          className="download-container"
+          id="download-link"
+          href="https://mega.nz/file/FSU3DYZD#wBmEx_2ZsgIz1jTHQbCwC3wnfWjZU2bElC_yGZtdVMw"
+          target="_blank"
+        >
+          <img id="download-icon" src={DownloadIcon} alt="" />
+          <span>Download Our Final Year Project Proposal Template</span>
+        </a>
+        <br />
+        <h5 className="sub-head">Project Proposal Examples</h5>
+        <p>
+          Writing a project proposal can be quite challenging, but a good
+          starting point could be to look at some examples. We’ve included a few
+          for you below.
+          <br />
+          <br />
+          <li>
+            <b>Example project proposal 1:</b> “Web-based project on Grammer Tool”
+          </li>
+          <li>
+            <b>Example research proposal 2:</b> “Web-based project on Solar Energy”
+          </li>
+        </p>
+        <div className="link-group">
+          <a
+            className="download-container"
+            id="download-link"
+            href="https://mega.nz/file/kH0RACJA#Z0IJ5JQvaLMNiFDDkaNO0XJ22qkWf6huZYLS-PjYr4c"
+            target="_blank"
+          >
+            <img id="download-icon" src={DownloadIcon} alt="" />
+            <span>Download Example 1</span>
+          </a>
+          <a
+            className="download-container"
+            id="download-link"
+            href="https://mega.nz/file/FetihZYa#rNrB-bQh4aQ-olR6zvIeJ7alJVo9pVSDIvexLQ7AeLw"
+            target="_blank"
+          >
+            <img id="download-icon" src={DownloadIcon} alt="" />
+            <span>Download Example 2</span>
+          </a>
+        </div>
+        <br />
+        <hr />
+
+
+
+        <div className="secondary-head">
+          <h4>How to Write a Software Requirement and Design Specification| Examples & Templates</h4>
+        </div>
+        <p>
+          A final year project proposal outlines the intended research, 
+          articulating the significance of the topic and detailing the methodology to be employed. 
+          While the structure of such a proposal can differ across academic disciplines, 
+          it generally includes several key components: an introduction to the research question or problem, 
+          a literature review situating the project within existing scholarship, a clear statement of objectives, 
+          a description of the research design and methods, an explanation of the project's significance and potential contributions, 
+          a timeline for completion, and a list of references. This framework ensures that the proposal provides a comprehensive plan 
+          for the research, demonstrating its feasibility and scholarly value. Most of the proposals will
+          contain at least these elements:
+          <br />
+          <li className="list-style1">Project Title</li>
+          <li className="list-style1">Real world problem</li>
+          <li className="list-style1">Detail of project members</li>
+          <li className="list-style1">Project streams</li>
+          <li className="list-style1">Project Description</li>
+          <li className="list-style1">Development enviroment</li>
+          <br />
+          While the sections may vary, the overall objective is always the same.
+          A project proposal serves as a blueprint and guide for your
+          plan, helping you get organized and feel confident in the path forward
+          you choose to take.
+        </p>
+        <h5 className="sub-head">Final Year Project Proposal Templates</h5>
+        <p>
+          A bachelor’s or master’s project proposal can be just a few pages,
+          while proposals for PhD dissertations are usually
+          much longer and more detailed.
+        </p>
+        <a
+          className="download-container"
+          id="download-link"
+          href="https://mega.nz/file/FSU3DYZD#wBmEx_2ZsgIz1jTHQbCwC3wnfWjZU2bElC_yGZtdVMw"
+          target="_blank"
+        >
+          <img id="download-icon" src={DownloadIcon} alt="" />
+          <span>Download Our Final Year Project Proposal Template</span>
+        </a>
+        <br />
+        <h5 className="sub-head">Project Proposal Examples</h5>
+        <p>
+          Writing a project proposal can be quite challenging, but a good
+          starting point could be to look at some examples. We’ve included a few
+          for you below.
+          <br />
+          <br />
+          <li>
+            <b>Example project proposal 1:</b> “Web-based project on Grammer Tool”
+          </li>
+          <li>
+            <b>Example research proposal 2:</b> “Web-based project on Solar Energy”
+          </li>
+        </p>
+        <div className="link-group">
+          <a
+            className="download-container"
+            id="download-link"
+            href="https://mega.nz/file/kH0RACJA#Z0IJ5JQvaLMNiFDDkaNO0XJ22qkWf6huZYLS-PjYr4c"
+            target="_blank"
+          >
+            <img id="download-icon" src={DownloadIcon} alt="" />
+            <span>Download Example 1</span>
+          </a>
+          <a
+            className="download-container"
+            id="download-link"
+            href="https://mega.nz/file/FetihZYa#rNrB-bQh4aQ-olR6zvIeJ7alJVo9pVSDIvexLQ7AeLw"
+            target="_blank"
+          >
+            <img id="download-icon" src={DownloadIcon} alt="" />
+            <span>Download Example 2</span>
+          </a>
+        </div>
+        <br />
+        <hr />
       </div>
+
       <Footer />
     </>
   );
