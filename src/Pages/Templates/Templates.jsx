@@ -470,7 +470,7 @@ function Templates() {
             <b>Example SRDS 1:</b> “Web-based Grammer Tool”
           </li>
           <li>
-            <b>Example SRDS 2:</b> “Web-based Solar Energy System”
+            <b>Example SRDS 2:</b> “Web-based Energy System”
           </li>
         </p>
         <div className="link-group">
