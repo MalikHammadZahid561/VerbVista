@@ -13,7 +13,7 @@ const Login = () => {
   const handleLogin = async (event) => {
     event.preventDefault(); // Prevent the form from being submitted traditionally
 
-    const loginUrl = 'http://localhost:8000/api/v2/user/login-user';
+    const loginUrl = 'https://verb-vista-backend.vercel.app/api/v2/user/login-user';
     const payload = {
       email: email,
       password: password
