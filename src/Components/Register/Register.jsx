@@ -16,7 +16,7 @@ const Register = () => {
     event.preventDefault(); // Prevent the form from being submitted traditionally
     if (!validateForm()) return; // Stop the submission if the validation fails
 
-    const registerUrl = 'https://verb-vista-backend.vercel.app/api/v2/user/create-user';
+    const registerUrl = 'https://verb-vista-backend-ten.vercel.app/api/v2/user/create-user';
     const payload = {
       name: fullName,
       email: email,
