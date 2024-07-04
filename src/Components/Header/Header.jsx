@@ -4,15 +4,6 @@ import { Link } from 'react-router-dom';
 import Logo from "/Assets/logo.png";
 
 const Header = () => {
-  useEffect(() => {
-    // Initialize AdSense
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error('AdSense error', e);
-    }
-  }, []);
-
   return (
     <header>
       <nav>
